@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# script name: hello-world.sh
+# author: Marco Karpf
+# date: 06.03.2023
+
+# command: echo
+# description: is used to output text to standard output (terminal) or to a file. It is a simple tool that is commonly used in scripts and on the command line.
+
+echo "Hello World!" # output: Hello World!
+echo -n "Hello World!" # output: Hello World! (no line break)
+echo -e "Hello\tWorld!" # output: Hello World! (tab)
+echo -E "Hello\tWorld!" # output: Hello\tWorld! (no tab)
+echo $USER # output: marco (user name)
